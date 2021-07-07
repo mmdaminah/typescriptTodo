@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "noUnusedLocals": false, 
+    "noUnusedParameters": true, 
+    "noImplicitReturns": true,  
+    "noFallthroughCasesInSwitch": true, 
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "./build/",
+    "sourceMap": true,
+    },
+    "include": ["src"],
+    "exclude": ["./build/"]
+}
